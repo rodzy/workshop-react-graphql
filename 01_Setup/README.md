@@ -39,3 +39,24 @@ Estos son algunas de las extensiones que utilizaremos en el transcurso del tutor
 - [ ] [GraphQL](https://marketplace.visualstudio.com/items?itemName=mquandalle.graphql)
 
 - [ ] [GraphQL-Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql)
+
+En el transcurso del curso puede que instalemos más extensiones.
+
+## Control de versiones
+
+Recomiendo el uso de git en especifico GitHub para poder ir al día con el proceso de el tutorial.
+
+Puedes realizar una copia de este repositorio haciendo un [`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) y clonando esa versión en tu computadora usando `git clone <Tu-Fork>`
+
+> Nota: Si quieres mantener tu fork sincronizado con los últimos cambios de este repositorio puedes usar `git upstream` Adjunto un ejemplo de como se mantiene el upstream con tu fork
+
+Para sincronizar o enlazar tu fork con este repo
+
+![Upstream](assets/gitfetch.PNG)
+
+Esto creará una rama para obtener cambios desde el repositorio original.
+
+Para sincronizar cambios debes hacer un `pull`
+
+![Pull](assets/gitpullupstream.PNG)
+
