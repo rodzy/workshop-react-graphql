@@ -25,26 +25,19 @@ Yo en lo personal uso [VSCode](https://code.visualstudio.com/) aunque no es mand
 Estos son algunas de las extensiones que utilizaremos en el transcurso del tutorial.
 
 - [ ] [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-
 - [ ] [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
 - [ ] [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
 - [ ] [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-
 - [ ] [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-
 - [ ] [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
 - [ ] [GraphQL](https://marketplace.visualstudio.com/items?itemName=mquandalle.graphql)
-
 - [ ] [GraphQL-Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql)
 
 En el transcurso del curso puede que instalemos más extensiones.
 
 ## Control de versiones
 
-Recomiendo el uso de git en especifico GitHub para poder ir al día con el proceso de el tutorial.
+Recomiendo el uso de git en especifico GitHub para poder ir al día con el proceso del tutorial.
 
 Puedes realizar una copia de este repositorio haciendo un [`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) y clonando esa versión en tu computadora usando `git clone <Tu-Fork>`
 
@@ -59,6 +52,8 @@ Esto creará una rama para obtener cambios desde el repositorio original.
 Para sincronizar cambios debes hacer un `pull`
 
 ![Pull](assets/gitpullupstream.PNG)
+
+> Nota: El upstream sirve para conseguir los últimos cambios de este repositorio, lo más recomendable es que sigas los pasos del tutorial y crees tu propio repositorio. Mira este upstream como una manera de conseguir el código si algo no va bien y necesitas ayuda del código de este repositorio o si crees que necesita un cambio.
 
 ## Hosting
 
