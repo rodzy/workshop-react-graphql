@@ -60,3 +60,21 @@ Para sincronizar cambios debes hacer un `pull`
 
 ![Pull](assets/gitpullupstream.PNG)
 
+## Hosting
+
+Para hosting utilizaremos varios servicios.
+
+### Vercel
+
+Vercel es una plataforma en donde podremos hacer deply de nuestro Frontend, de una manera sencilla y muy profesional, la integración de este servicio con GitHub es muy buena linkea tu cuenta en [Vercel](https://vercel.com/home)
+
+### Digital Ocean
+
+Digital Ocean es una plataforma en donde vamos a poder hacer deploy en la nube, es un servicio muy escalabe y además tenemos $100 de credit durante 60 días para usuarios nuevos, si no tienes cuenta en Digital Ocean puedes crearla [aquí](https://cloud.digitalocean.com/registrations/new)
+
+### Docker
+
+Docker es un sistema de containarización en donde podemos crear un contendor con imagenes de nuestro ambiente de desarrollo, es similar a una máquina virtual pero tiene más ventajas, es más moderno y más veloz para levantar las imagenes.
+
+Nosotros utilizaremos [Docker Hub](https://www.docker.com/) y la extensión de [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) en VSCode.
+
