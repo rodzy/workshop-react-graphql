@@ -1,4 +1,4 @@
-# Comenzamos estructurando nuestros proyectos
+p# Comenzamos estructurando nuestros proyectos
 
 Primeramente debemos pensar en como queremos estructurar nuestros proyectos y que necesitamos para trabajar, podemos tomar como referencia el diagrama de nuestro flujo del proyecto.
 
@@ -44,9 +44,22 @@ Nuestro cliente en esta ocasión será una simple _Single Page Aplication_ de Re
 
     ![React web](assets/reactweb.PNG)
 
-5. Ahora vamos a limpiar un poco la plantilla de React que acabamos de instalar porque hay ciertos elementos que no vamos a necesitar a como vienen  
+5. Ahora vamos a limpiar un poco la plantilla de React que acabamos de instalar porque hay ciertos elementos que no vamos a necesitar:
 
-6. Listo todo salió perfecto, en el capitulo [08_Trabajando_En_El_Cliente](https://github.com/rodzy/workshop-react-graphql/tree/master/08_Trabajando_En_El_Cliente), empezaremos a trabajar con nuestra aplicación de React.
+    - Entre estos elementos estan: Los archivos de testing (Luego nosotros crearemos nuestros propios archivos para testear nuestros componentes), imagenes con logos de React que son solo para identificar pero no tienen una función específica en el proyecto.
+
+<p align="left">
+Antes 😓<br>
+<img src="assets/clientFolder.PNG" width=240>
+<p align="right">
+Después 🥱<br>
+<img src="assets/clientAfter.PNG" width=250>
+</p>
+</p>
+
+6. Ahora solo queda empezar a trabajar en el diseño, recomendado investigar más sobre TailwindCSS (Tailwind es un framework de CSS moderno que se basa primero en todas las utilidades y personalización a diferencia de otros frameworks como Bootstrap que te exige escribir CSS personalizado para modificar su aspecto) y las peticiones de la PokeAPI junto con el Context lo cual es bastante trabajo y será retomado en el capitulo [08_Trabajando_En_El_Cliente](https://github.com/rodzy/workshop-react-graphql/tree/master/08_Trabajando_En_El_Cliente), empezaremos a trabajar con nuestra aplicación de React.
+
+[Más información](#material-para-reforzar-el-contenido-de-esta-sección)
 
 ## La carpeta `server`
 
@@ -112,37 +125,37 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
 
 4. Una vez tenemos las dependecias instaladas nuestro _package.json_ en server debe parecerse a este formato:
 
-```json
-{
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "apollo-server-express": "^2.17.0",
-    "bcrypt": "^5.0.0",
-    "class-validator": "^0.12.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "graphql": "^15.3.0",
-    "graphql-config": "^3.0.3",
-    "pg": "^8.3.3",
-    "reflect-metadata": "^0.1.13",
-    "type-graphql": "^1.0.0",
-    "typeorm": "^0.2.26"
-  },
-  "devDependencies": {
-    "@types/bcrypt": "^3.0.0",
-    "@types/cors": "^2.8.7",
-    "@types/express": "^4.17.8",
-    "@types/graphql": "^14.5.0",
-    "@types/node": "^14.10.1",
-    "ts-node": "^9.0.0",
-    "ts-node-dev": "^1.0.0-pre.62",
-    "typescript": "^4.0.2"
-  }
-}
-```
+    ```json
+    {
+      "name": "server",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "dependencies": {
+        "apollo-server-express": "^2.17.0",
+        "bcrypt": "^5.0.0",
+        "class-validator": "^0.12.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "graphql": "^15.3.0",
+        "graphql-config": "^3.0.3",
+        "pg": "^8.3.3",
+        "reflect-metadata": "^0.1.13",
+        "type-graphql": "^1.0.0",
+        "typeorm": "^0.2.26"
+      },
+      "devDependencies": {
+        "@types/bcrypt": "^3.0.0",
+        "@types/cors": "^2.8.7",
+        "@types/express": "^4.17.8",
+        "@types/graphql": "^14.5.0",
+        "@types/node": "^14.10.1",
+        "ts-node": "^9.0.0",
+        "ts-node-dev": "^1.0.0-pre.62",
+        "typescript": "^4.0.2"
+      }
+    }
+    ```
 
 -------
 Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser algo similar a esto:
@@ -166,3 +179,5 @@ Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser al
 - [Yarn CLI commands](https://classic.yarnpkg.com/en/docs/cli/)
 
 - [Documentación de React](https://es.reactjs.org/)
+
+- [Tailwind CSS](https://tailwindcss.com/)
