@@ -174,6 +174,8 @@ Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser al
 
 ## Material para reforzar el contenido de esta sección
 
+🧐📝 Este material te ayudará a mejorar en el aspecto técnico, ya que cada vez vamos a ir hablando de una manera más conceptual
+
 - [npm-package.json Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json)
 
 - [Yarn CLI commands](https://classic.yarnpkg.com/en/docs/cli/)
