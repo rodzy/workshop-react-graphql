@@ -1,4 +1,4 @@
-p# Comenzamos estructurando nuestros proyectos
+# Comenzamos estructurando nuestros proyectos
 
 Primeramente debemos pensar en como queremos estructurar nuestros proyectos y que necesitamos para trabajar, podemos tomar como referencia el diagrama de nuestro flujo del proyecto.
 
@@ -50,10 +50,10 @@ Nuestro cliente en esta ocasión será una simple _Single Page Aplication_ de Re
 
 <p align="left">
 Antes 😓<br>
-<img src="assets/clientFolder.PNG" width=240>
+<img src="assets/clientFolder.PNG" width=300>
 <p align="right">
 Después 🥱<br>
-<img src="assets/clientAfter.PNG" width=250>
+<img src="assets/clientAfter.PNG" width=300>
 </p>
 </p>
 
