@@ -84,7 +84,7 @@ Solo recuerda que debes tener esto en tu _package.json_
 
 Listo ya tenemos nuestro _package.json_ listo ahora debemos comenzar a trabajar en nuestro workspace `La carpeta (packages)`
 
-En la siguiente parte del tutorial empezaremos a estructrurar nuestro workspace para trabajar con nuestros proyectos.
+En la siguiente parte del tutorial empezaremos a estructurar nuestro workspace para trabajar con nuestros proyectos.
 
 [Ir a la siguente lección](https://github.com/rodzy/workshop-react-graphql/tree/master/packages)
 
