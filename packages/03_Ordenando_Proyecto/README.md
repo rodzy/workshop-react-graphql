@@ -65,7 +65,42 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
 
     ![pkg](assets/pkgjsonserver.PNG)
 
-3. Ahora debemos de importar algunas de las dependencias que necesitaremos para el proyecto de _Server_
+3. Ahora debemos de importar algunas de las dependencias que necesitaremos para el proyecto de _Server_ comenzando con:
+
+    - Dependencies: Para añadir dependencias debemos utilizar.
+
+        ```bash
+            yarn add <nombre-del-paquete>
+        ```
+
+        - apollo-server-express
+        - bcrypt
+        - class-validator
+        - cors
+        - express
+        - graphql
+        - graphql-config
+        - pg
+        - reflect-metadata
+        - type-graphql
+        - typeorm
+
+    > **Aviso**: En caso de no usar PostgreSQL debes buscar otra librería para remplazar la dependencia _pg_
+
+    - DevDependencies: Son dependencias de desarrollo que no van a tener impacto en la publicación por ejemplo a la hora de publicar un paquete a `npm`.
+
+        ```bash
+            yarn add -D <nombre-del-paquete>
+        ```
+
+        - @types/bcrypt
+        - @types/cors
+        - @types/express
+        - @types/graphql
+        - @types/node
+        - ts-node
+        - ts-node-dev
+        - typescript
 
 Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser algo similar a esto:
 
@@ -80,3 +115,11 @@ Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser al
 ```
 
 > **Nota:** A las carpetas les puedes llamar como quieras, aunque en lo personal prefiero llamarles _Server_ y _Client_.
+
+## Material para reforzar el contenido de esta sección
+
+- [npm-package.json Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json)
+
+- [Documentación de TypeGraphQL](https://typegraphql.com/)
+
+- [Documentación de React](https://es.reactjs.org/)
