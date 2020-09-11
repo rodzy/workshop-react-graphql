@@ -1,4 +1,4 @@
-# Packages
+# Folder `Packages`
 
 Este será nuestro espacio de trabajo principal, acá debemos organizar todas las carpetas que serán parte de nuestro proyecto y que queremos que compartan el mismo _`yarn.lock`_
 
