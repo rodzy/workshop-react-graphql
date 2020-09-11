@@ -96,3 +96,6 @@ Es recomendable saber utilizarlo bien ya que vamos a hacer uso de conceptos más
 - [Documentación oficial de React](https://es.reactjs.org/)
 - [TypeORM docs](https://typeorm.io/#/)
 - [Documentación de Apollo Server](https://www.apollographql.com/docs/)
+
+[Ir a la siguente lección](https://github.com/rodzy/workshop-react-graphql/tree/master/02_Introducción)
+
