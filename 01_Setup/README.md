@@ -73,3 +73,26 @@ Docker es un sistema de containarización en donde podemos crear un contendor co
 
 Nosotros utilizaremos [Docker Hub](https://www.docker.com/) y la extensión de [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) en VSCode.
 
+## Base de datos
+
+En esta ocasión puedes utilizar cualquier base de datos que sea compatible con [TypeORM](https://typeorm.io/#/) en este tutorial usaré PostgreSQL que mi base de datos de preferencia, puedes descargar PostgreSQL [aquí](https://www.postgresql.org/download/) la base de datos la usaremos para guardar una representación del inventario de los Pokemon que hemos capturado, no será una base de datos tan robusta pero es para tener una idea.
+
+## Importante
+
+Para construir nuestro server de GraphQL usaremos Node.js específicamente TS Node, así que te recomiendo instalar TypeScript de manera global.
+
+¿Como instalar TS?:
+
+```bash
+    npm install -g typescript
+```
+
+Es recomendable saber utilizarlo bien ya que vamos a hacer uso de conceptos más avanzados. Puedes consultar su [website](https://www.typescriptlang.org/) para más detalles.
+
+> _TypeScript es el lenguaje de programación que extiende JavaScript agregándole tipos_
+
+## Recursos que nos pueden servir para el camino
+
+- [Documentación oficial de React](https://es.reactjs.org/)
+- [TypeORM docs](https://typeorm.io/#/)
+- [Documentación de Apollo Server](https://www.apollographql.com/docs/)
