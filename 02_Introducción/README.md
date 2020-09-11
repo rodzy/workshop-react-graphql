@@ -18,9 +18,9 @@ Puedes consultar su api en: https://yarnpkg.com/api/
 
 Los workspaces son una forma de nosotros poder compartir dependecias entre proyectos con una única instalación y solo un `yarn.lock` esto para que? El uso de esta prática se le conoce como monorepositorio en el que podemos tener muchos proyectos con una sola carpeta de `node_modules` lo que hace más rápida la instalación de dependencias de manera repetida en los proyectos.
 
-## '¿Porqué nos va a servir usarlos?'
+## '¿Porqué usarlos?'
 
-En este tipo de repositorio en donde vamos a tener varias copias del proyecto que vamos a ir desarrollando lo cual haría más tedioso tener que estar escribiendo `yarn install` para cada uno de los proyectos.
+Es muy útil utilizarlos en este tipo de repositorio en donde vamos a tener varias copias del proyecto que vamos a ir desarrollando lo cual haría más tedioso tener que estar escribiendo `yarn install` para cada uno de los proyectos.
 
 <p align="center">
 <img src="https://media.giphy.com/media/3o6MbhW7Qdx9MWBzhu/giphy.gif" width=250>
@@ -69,3 +69,21 @@ Nuestro _package.json_ debe quedar de esta manera
 
 - `"workspaces":[]`: En este arreglo pasamos las rutas de los folders que vamos a hidratar por el `yarn.lock`
 
+> Nota: El _package.json_ pudiste haberlo creador como un nuevo archivo en la raíz, sin hacer uso del `yarn init` pero de ambas formas es correcto.
+
+Solo recuerda que debes tener esto en tu _package.json_
+
+```json
+    {
+        "private": true,
+        "workspaces": [
+            "packages/*"
+        ]
+    }
+```
+
+Listo ya tenemos nuestro _package.json_ listo ahora debemos comenzar a trabajar en nuestro workspace `La carpeta (packages)`
+
+## Recursos para reforzar lo aprendido
+
+- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
