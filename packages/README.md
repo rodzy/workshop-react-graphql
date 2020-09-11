@@ -1,6 +1,6 @@
 # Packages
 
-Este será nuestro espacio de trabajo principal, acá debemos organizar todas las carpetas que serán parte de nuestro proyecto y que queremos que compartan el mismo _`node_modules`_ y el mismo _`yarn.lock`_
+Este será nuestro espacio de trabajo principal, acá debemos organizar todas las carpetas que serán parte de nuestro proyecto y que queremos que compartan el mismo _`yarn.lock`_
 
 Siempre que trabajemos con esta arquitectura vamos a tener un una oganización de folders similar a esta:
 
