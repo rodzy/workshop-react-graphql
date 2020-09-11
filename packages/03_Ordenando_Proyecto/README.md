@@ -44,7 +44,9 @@ Nuestro cliente en esta ocasión será una simple _Single Page Aplication_ de Re
 
     ![React web](assets/reactweb.PNG)
 
-5. Listo todo salió perfecto, en el capitulo [08_Trabajando_En_El_Cliente](https://github.com/rodzy/workshop-react-graphql/tree/master/08_Trabajando_En_El_Cliente), empezaremos a trabajar con nuestra aplicación de React.
+5. Ahora vamos a limpiar un poco la plantilla de React que acabamos de instalar porque hay ciertos elementos que no vamos a necesitar a como vienen  
+
+6. Listo todo salió perfecto, en el capitulo [08_Trabajando_En_El_Cliente](https://github.com/rodzy/workshop-react-graphql/tree/master/08_Trabajando_En_El_Cliente), empezaremos a trabajar con nuestra aplicación de React.
 
 ## La carpeta `server`
 
@@ -85,7 +87,7 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
         - type-graphql
         - typeorm
 
-        Para añadir múltiples dependecias podemos usar esta sintaxis en nuestra terminal
+        Para añadir múltiples dependencias podemos usar esta sintaxis en nuestra terminal
 
         ![deps](assets/deps.PNG)
 
@@ -142,6 +144,7 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
 }
 ```
 
+-------
 Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser algo similar a esto:
 
 ```s
@@ -160,6 +163,6 @@ Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser al
 
 - [npm-package.json Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json)
 
-- [Documentación de TypeGraphQL](https://typegraphql.com/)
+- [Yarn CLI commands](https://classic.yarnpkg.com/en/docs/cli/)
 
 - [Documentación de React](https://es.reactjs.org/)
