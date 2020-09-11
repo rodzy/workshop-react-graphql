@@ -16,7 +16,7 @@ Puedes consultar su api en: https://yarnpkg.com/api/
 
 > Los workspaces son una nueva forma de configurar la arquitectura de su paquete que está disponible de forma predeterminada a partir de Yarn 1.0. Le permite configurar varios paquetes de tal manera que solo necesita ejecutar yarn install una vez para instalarlos todos en una sola pasada.
 
-Los workspaces son una forma de nosotros poder compartir dependecias entre proyectos con una única instalación y solo un `yarn.lock` esto para que? El uso de esta prática se le conoce como monorepositorio en el que podemos tener muchos proyectos con una sola carpeta de `node_modules` lo que hace más rápida la instalación de dependencias de manera repetida en los proyectos.
+Los workspaces son una forma de nosotros poder compartir dependencias entre proyectos con una única instalación y solo un `yarn.lock` esto para que? El uso de esta prática se le conoce como monorepositorio en el que podemos tener muchos proyectos con una sola carpeta de `node_modules` lo que hace más rápida la instalación de dependencias de manera repetida en los proyectos.
 
 ## '¿Porqué usarlos?'
 
