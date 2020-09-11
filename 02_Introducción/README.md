@@ -1,4 +1,4 @@
-# Introdución
+# Introducción
 
 A manera de comenzar el tutorial, aprenderemos sobre Yarn workspaces y cual es su utilidad, también el porqué de utilizarlo en este tipo de proyectos.
 
