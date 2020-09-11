@@ -23,4 +23,4 @@ Siempre que trabajemos con esta arquitectura vamos a tener un una oganización d
 └── yarn-lock
 ```
 
-> Nota: Todas las carpetas que no se encuentren dentro de `packages` crearán un nuevo `yarn.lock` lo que es un grave error porque no sabría de donde escoger los _node_modules_
+> Nota: Todas las carpetas que sean un nuevo proyecto con dependencias y que no se encuentren dentro de `packages` crearán un nuevo `yarn.lock` lo cual es un grave error porque no sabría de donde escoger los _node_modules_
