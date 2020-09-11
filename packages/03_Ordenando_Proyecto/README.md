@@ -85,6 +85,10 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
         - type-graphql
         - typeorm
 
+        Para añadir múltiples dependecias podemos usar esta sintaxis en nuestra terminal
+
+        ![deps](assets/deps.PNG)
+
     > **Aviso**: En caso de no usar PostgreSQL debes buscar otra librería para remplazar la dependencia _pg_
 
     - DevDependencies: Son dependencias de desarrollo que no van a tener impacto en la publicación por ejemplo a la hora de publicar un paquete a `npm`.
@@ -101,6 +105,42 @@ En esta carpeta realizaremos una organización especial, ya que usaremos varias 
         - ts-node
         - ts-node-dev
         - typescript
+
+        ![dev deps](assets/devdeps.PNG)
+
+4. Una vez tenemos las dependecias instaladas nuestro _package.json_ en server debe parecerse a este formato:
+
+```json
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.17.0",
+    "bcrypt": "^5.0.0",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-config": "^3.0.3",
+    "pg": "^8.3.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0",
+    "typeorm": "^0.2.26"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.10.1",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  }
+}
+```
 
 Una vez tenemos las carpetas creadas nuestra estructura del proyecto debe ser algo similar a esto:
 
