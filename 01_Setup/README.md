@@ -45,6 +45,10 @@ Puedes realizar una copia de este repositorio haciendo un [`fork`](https://docs.
 
 Para sincronizar o enlazar tu fork con este repo
 
+```bash
+    git add remote upstream https://github.com/rodzy/workshop-react-graphql.git
+```
+
 ![Upstream](assets/gitfetch.PNG)
 
 Esto creará una rama para obtener cambios desde el repositorio original.
